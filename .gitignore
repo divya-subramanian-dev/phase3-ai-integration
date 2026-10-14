@@ -22,3 +22,55 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+.env
+.env.*
+application-local.properties
+application-prod.properties
+
+# AI Secrets
+apikeys.properties
+openai.properties
+
+# Uploads
+uploads/
+documents/
+
+# Embedding Data
+vector-data/
+
+# Redis
+redis-data/
+
+# Docker
+docker-data/
+
+# Coverage
+coverage/
+jacoco.exec
+
+# AWS
+*.pem
+
+# Temporary
+tmp/
+temp/
+
+# OS Files
+.DS_Store
+Thumbs.db
